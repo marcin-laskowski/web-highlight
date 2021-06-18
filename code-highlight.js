@@ -301,7 +301,7 @@ var hljs = function () {
                 }; let d = {
                     ignoreUnescapedHTML: !1, noHighlightRe: /^(no-?highlight)$/i,
                     languageDetectRe: /\blang(?:uage)?-([\w-]+)\b/i, classPrefix: "hljs-",
-                    cssSelector: "pre", languages: null, __emitter: c
+                    cssSelector: "pre code", languages: null, __emitter: c
                 }; function g(e) {
                     return d.noHighlightRe.test(e)
                 } function u(e, n, t, a) {
